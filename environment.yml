@@ -1,0 +1,19 @@
+name: llm-mcts
+dependencies:
+  - python=3.11
+  - pip
+  # python libs
+  - pytest
+  - black
+  - ipython
+  # ml libs
+  - numpy
+  - pytorch
+  - llama-cpp-python
+  - outlines
+  - einops
+  # HF libs
+  - transformers
+  - accelerate
+  # graph libs
+  - python-graphviz
